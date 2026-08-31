@@ -7,6 +7,9 @@ repository = "https://github.com/x4gpanell/X4G"
 [dependencies]
 "wasmer/python" = "^3.12.6"
 
+[fs]
+"/src" = "."
+
 [[command]]
 name = "x4g"
 module = "wasmer/python:python"
@@ -16,10 +19,15 @@ runner = "wasi"
 main-args = [
     "-m",
     "uvicorn",
+    "--app-dir",
+    "/src",
     "main:app",
     "--host",
     "0.0.0.0",
     "--port",
     "8000"
 ]
-env = ["PYTHONEXECUTABLE: /bin/python"]
+
+env = [
+    "PYTHONEXECUTABLE: /bin/python"
+]
