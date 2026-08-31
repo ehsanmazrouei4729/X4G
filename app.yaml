@@ -3,3 +3,7 @@ owner: Ehsan2nd
 name: x4g
 package: .
 debug: true
+
+locality:
+  regions:
+    - us-ashburn
