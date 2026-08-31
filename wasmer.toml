@@ -1,7 +1,7 @@
 [package]
-name = "Ehsan2nd"
+name = "Ehsan2nd/x4g"
 version = "0.1.0"
-description = "X4G Python FastAPI application"
+description = "X4G FastAPI application"
 repository = "https://github.com/x4gpanell/X4G"
 
 [dependencies]
