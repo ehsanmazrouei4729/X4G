@@ -3,14 +3,6 @@ owner: Ehsan2nd
 name: x4g
 package: .
 debug: true
-cli_args:
-  kind: wasmer.io/App.v0
-owner: Ehsan2nd
-name: x4g
-
-package:
-
-debug: true
 
 cli_args:
   - uvicorn
@@ -20,7 +12,5 @@ cli_args:
   - --port
   - "8000"
 
-env:
-  PYTHONEXECUTABLE: /bin/python
 env:
   PYTHONEXECUTABLE: /bin/python
