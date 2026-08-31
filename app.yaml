@@ -1,4 +1,5 @@
 kind: wasmer.io/App.v0
-name: x4g
 owner: Ehsan2nd
+name: x4g
 package: .
+debug: true
