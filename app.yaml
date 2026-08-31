@@ -3,3 +3,7 @@ owner: Ehsan2nd
 name: x4g
 package: .
 debug: true
+
+volumes:
+  - name: data
+    mount: /data
